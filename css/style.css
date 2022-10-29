@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior:smooth
+}
+
+div#interface {
+    height: 100vh;
+    width: 100%;
+}
+
+/* Formatação do menu */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav#menu {
+    text-align: center;
+}
+
+nav#menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav#menu ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20pt;
+    font-weight: bold;
+    color: white;
+}
+
+nav#menu a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20pt;
+    font-weight: bold;
+    color: white;
+}
+
+/* Formatação do body */
+body {
+    background-color: #1C1D24;
+    color: white;
+}
+
+/* Formatação do section-topo */
+section#section-topo {
+    background-color: white;
+    color: #1C1D24;
+}
+
+div#topo {
+    display: flex;
+    margin: 0px 15px;
+    
+}
+
+div#topo header {
+    padding-top: 20%;
+}
+
+div#topo h1 {
+    font-size: 30pt;
+    font-weight: bolder;
+}
+
+div#topo h2 {
+    font-size: 20pt;
+    font-weight: lighter;
+}
+
+div#topo h5 {
+    font-size: 15pt;
+    font-weight: lighter;
+}
+
+div#topo img#fabiano {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.flex-child-1 {
+    flex: 1;
+}
+
+.flex-child-2 {
+    flex: 2;
+} 
+
+/* Formatação do section-projetos */
+section#section-portfolio {
+    background-color: white;
+    color: #1C1D24;
+}
